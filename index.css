@@ -1,0 +1,68 @@
+
+@media screen and (max-width: 768px) {
+    .container{
+        padding:50px 50px;
+    } 
+}
+
+    .container{
+        padding:50px 200px;
+    } 
+
+.header1{ 
+   color: blue; 
+   text-align: center;
+}
+
+.header2{
+    color: grey;
+    text-align: center;
+}
+
+.header3{
+    color: black;
+    background-color:aliceblue;
+}
+
+.paragraph{
+    color: black;
+    font-size: medium;
+}
+
+.gap{
+    display: flex;
+    gap: 10px;
+}
+
+.table{ 
+ table, th, td {
+border: 1px solid;
+width: 30%;
+text-align: center;
+margin-top: 50px;
+background-color: aliceblue;
+ }
+} 
+
+.card{
+    width: 200px;
+    height: 200px;
+    background-color:azure;
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+
+}
+.main{
+    display: flex;
+    justify-content:space-between;
+}
+
+@media screen and (max-width:768px) {
+    .main{
+       flex-direction: column;
+    
+    } 
+}
