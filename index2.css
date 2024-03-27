@@ -1,0 +1,57 @@
+.container{
+    padding: 20px 20px;
+}
+
+.top-header{
+ background-color: plum;
+ color:aliceblue;
+}
+
+.socialfooter{
+    float: right;  
+    display: flex;
+    gap: 10px;
+}
+
+.icons{
+    cursor: pointer;
+    display: flex;
+    gap: 15px;
+}
+
+.logo{
+    width: 50px;
+    height: 50px;
+}
+
+.row{
+    align-items: center;
+}
+
+.list{
+    display: flex;
+     gap: 20px; 
+     list-style: none;
+}
+
+.buttons{
+    background-color: #81d598;
+    border: #81d598 !important;
+    border-radius: 6px ;
+    /* padding: 20px; */
+    width: 120px;
+    height: 35px;   
+    font-weight: 500;
+    color:aliceblue;
+    text-align: center;
+}
+
+.buttons:hover {
+    background-color: plum;
+
+}
+
+a {
+    text-decoration: none !important;
+    color: plum !important;
+}
